@@ -1,0 +1,87 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{6, 6}, {405, 82}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "19BFD1CC-B559-4CB3-8390-91523432FDC7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "what is the area and perimeter of a rectangle with a length of 5 cm and a width of 3 cm ?",
+          "name" : "question_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{164, 96}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "answer_label_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Answer",
+          "uuid" : "97976B71-10F6-40C2-BC4F-749F8C0ADD60",
+          "class" : "Button",
+          "name" : "answer_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{24, 155}, {250, 33}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "B34C4582-E07E-4CC9-92CC-F19C81CB2515",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "area_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{24, 196}, {250, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "CDB0E28F-8F6B-4C3F-BEB7-F5DCEE58F747",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "perimeter_answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
